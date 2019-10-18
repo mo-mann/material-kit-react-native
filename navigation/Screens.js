@@ -111,12 +111,14 @@ const HomeStack = createStackNavigator({
 
 const AppStack = createDrawerNavigator(
   {
+/*
     Onboarding: {
       screen: OnboardingScreen,
       navigationOptions: {
         drawerLabel: () => {},
       },
     },
+ */
     Home: {
       screen: HomeStack,
       navigationOptions: {
@@ -125,6 +127,7 @@ const AppStack = createDrawerNavigator(
         )
       }
     },
+/*
     Woman: {
       screen: ProScreen,
       navigationOptions: (navOpt) => ({
@@ -157,6 +160,7 @@ const AppStack = createDrawerNavigator(
         ),
       }),
     },
+*/
     Profile: {
       screen: ProfileStack,
       navigationOptions: (navOpt) => ({
